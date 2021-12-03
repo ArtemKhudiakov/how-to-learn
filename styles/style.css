@@ -14,6 +14,10 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-color: #f2f2f2;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -28,4 +32,50 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 3;
+}
+
+.header__title {
+  display: block;
+  margin-left: 64px;
+  z-index: 3;
+  width: 730px;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: bold;
+}
+
+.header__subtitle {
+  position: absolute;
+  margin: 0;
+  left: 64px;
+  bottom: 30px;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__main-illustration {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+
+}
+
+.header__square-pic {
+  background-color: #2f80ed;
+  width: 568px;
+  height: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0;
+
 }
