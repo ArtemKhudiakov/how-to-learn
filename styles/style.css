@@ -9,6 +9,8 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/* header */
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -33,14 +35,14 @@
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 3;
+  z-index: 2;
 }
 
 .header__title {
   display: block;
   margin: 0;
   margin-left: 64px;
-  z-index: 3;
+  z-index: 2;
   width: 730px;
   font-size: 102px;
   line-height: 96px;
@@ -56,7 +58,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  z-index: 3;
+  z-index: 2;
 }
 
 .header__main-illustration {
@@ -79,6 +81,8 @@
 .header__link {
   text-decoration: none;
 }
+
+/* columns */
 
 .two-columns {
   display: flex;
@@ -261,6 +265,7 @@ overflow: hidden;
 
 .section-title_theme_dark {
   color: white;
+  z-index: 2;
 }
 
 .section-subtitle_theme_dark {
