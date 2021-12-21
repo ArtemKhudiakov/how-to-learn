@@ -18,4 +18,9 @@
 @import url(../blocks/video/video.css);
 @import url(../blocks/resources/resources.css);
 @import url(../vendor/normalize.css);
+@import url(./__description/cards__description.css);
+@import url(./__image/cards__image.css);
+@import url(./__item/cards__item.css);
+@import url(./__title/cards__title.css);
+
 
